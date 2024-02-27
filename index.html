@@ -3,210 +3,381 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="mystyle.css">
+    <link rel="stylesheet" href="extra.css">
     <title>Example</title>
   </head>
   <body>
-    <head class="header">
-        <h5 class="banner-header-text-sm"> Hounter</h5>
-        <h1 class="banner-header-text-main">Find The Place To <br/>Live Your Dreams<br/>Easily Here</h1>
+    <img src="./icons2/vec1.svg" class="vec1">
+    <img src="./icons2/vec2.svg" class="vec2">
+    <img src="./icons2/vec3.svg" class="vec3">
+    <img src="./icons2/vec4.svg" class="vec4">
+    <img src="./icons2/vec5.svg" class="vec5">
+    <img src="./icons2/vec6.svg" class="vec6">
+    <div class="container-1">  
+        <div class="left-content1"> 
+        <img class="bg-image1" src="./icons2/Color Blur.svg" >
+        <img class="banner-header-text-sm" src="./icons2/Logo.svg"/>
+        <h1 class="banner-header-text-main">Find The Place To <br/>Live <span class="Your_Dreams">Your Dreams</span><br/>Easily Here</h1>
         <p class="banner-text">
             Everything you need about finding your place to live will be here,
             <br/>where it will be easier for you
         </p>
-        <input type="text" placeholder="Search for the location you want!">
-        <button type="submit">Search</button>
-        <p>Our Partnership</p>
-        <img class="partner-1" src="./icons2/HeadLogo1.png" width="75"/>
-        <img class="partner-2" src="./icons2/HeadLogo2.png" width="75"/>
-        <img class="partner-3" src="./icons2/HeadLogo3.png" width="75"/>
-        <img class="partner-4" src="./icons2/HeadLogo4.png" width="75"/>
-        <img class="background-img" src="./icons2/HeadImage.png" alt="Background" width="400">
+        <form class="input-container1">
+        <img class="location" src="./icons2/IdkItWasHere.svg" >
+        <input class="panel1-input" type="text" placeholder="Search for the location you want!"/>
+        <button type="submit">Search
+        <img class="button-image" src="./icons2/Arrow.svg" alt="Button Image">
+        </button>
+        </form>
+        <p class="partnership">Our Partnership</p>
+        <div class="partners">
+        <img class="partner-1" src="./icons2/HeadLogo1.png" />
+        <img class="partner-2" src="./icons2/HeadLogo2.png" />
+        <img class="partner-3" src="./icons2/HeadLogo3.png" />
+        <img class="partner-4" src="./icons2/HeadLogo4.png" />
+        </div>
+        </div>
 
+        <div class="right-content1">
+        <img class="background-img2" src="./icons2/HeadImage.png">
         <nav class="header-nav">
             <a class="header-link" href="#">About Us</a>
             <a class="header-link" href="#">Article</a>
-            <select class="language-select">
-              <option class="language-option">Property</option>
-              <option class="language-option">Var1</option>
-              <option class="language-option">Var2</option>
-            </select>
+            <a class="header-link" href="#">Property</a>
             <button class="sign-up-btn">Sign Up!</button>
         </nav>
-            <div class="big-pill">
-                <img class="avatar-1" src="./icons2/Avatar1.jpeg" width="50"/>
-                <h5>1K+ people</h5>
-                <p>Successfully Getting Home</p>
+        <div class="pill-container">
+            <div class="pill big-pill">
+                <img class="avatar-1" src="./icons2/Avatar1.svg"/>
+                <div class="text-container">
+                    <h5>1K+ people</h5>
+                    <p>Successfully Getting Home</p>
+                </div>
             </div>
-            <div class="small-pill">
-                <img class="avatar-1" src="./icons2/Avatar2.png" width="50"/>
-                <h5>56 Houses</h5>
-                <p>Sold Monthly</p>
+            <div class="pill small-pill">
+                <img class="avatar-2" src="./icons2/Avatar2.png"/>
+                <div class="text-container">
+                    <h5>56 Houses</h5>
+                    <p>Sold Monthly</p>
+                </div>
             </div>
-    </head>
+        </div>
+    </div>        
+</div>
 
+<div class="recommendations">
+    <div class="head2">
+    <div class="gold-line"></div>
     <h5 class="recomendation">Our Recommendation</h5>
-    <div>
-        <h3 class="rec-head">Featured House</h3>
-        <button>House</button>
-        <button>Villa</button>
-        <button>Apartment</button>
-        <button><</button>
-        <button>></button>
     </div>
-    <div>
-        <div>
-            <img class="house-1" src="./icons2/House1.jpeg" width="100"/>
-            <img class="house-2" src="./icons2/House2.jpeg" width="100"/>
-            <img class="house-3" src="./icons2/House3.jpeg" width="100"/>
+    <div class="panel2">
+        <h3 class="featured-house">Featured House</h3>
+        <div class="choices2">
+            <div class="buttons2">
+        <button class="button-section2"><img class="button-image" src="./icons2/HouseIcon.svg"/>House</button>
+        <button class="transparent-button2"><img class="button-image" src="./icons2/VallaIcon.svg"/>Villa</button>
+        <button class="transparent-button2"><img class="button-image" src="./icons2/Vector.svg"/>Apartment</button>
+            </div>
         </div>
-            <p1 class="">Popular</p1>
-            <p2>New House</p2>
-            <p3>Best Deal</p3>
+        <div class="arrows2">
+        <button class="tuda"><img class="button-image" src="./icons2/Tuda.svg"/></button>
+        <button class="suda"><img class="button-image" src="./icons2/Suda.svg"/></button>
+        </div>
+    </div>
+    <div class="house-section">
         <div>
-            <p1>Roselands House</p1>
-            <p2>Woodlandside</p2>
-            <p3>The Old Lighthouse</p3>
+            <div class="house-container">
+            <img class="house-1" src="./icons2/House1.jpeg"/>
+            <p1 class="popular"><img class="fire" src="./icons2/Fire.svg">Popular</p1>
+            </div>
+            <div class="house-info">
+            <p1 class="house-name-1">Roselands House</p1>
+            <p1 class="price-1">$ 35.000.000</p1>
+            </div>
+            <div class="user-info">
+                <img class="avatar-1" src="./icons2/AvatarHouse1.svg"/>
+                <div class="text-info">
+                <h5>Dianne Russell</h5>
+                <p>Manchester, Kentucky</p>
+                </div>
+            </div>
         </div>
 
-        <p1>$ 35.000.000</p1>
-        <p2>$ 20.000.000</p2>
-        <p3>$ 44.000.000</p3>
+
+        <div>
+            <div class="house-container">
+            <img class="house-1" src="./icons2/House2.jpeg"/>
+            <p1 class="new-house"><img class="house-icn" src="./icons2/lastHope.png" width="15">New House</p1>
+            </div>
+            <div class="house-info">
+            <p1 class="house-name-1">Woodlandside</p1>
+            <p1 class="price-1">$ 20.000.000</p1>
+            </div>
+            <div class="user-info">
+                <img class="avatar-1" src="./icons2/AvatarHouse2.svg"/>
+                <div class="text-info">
+                <h5>Robert Fox</h5>
+                <p>Dr. Son Jose, South Dakota</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+            <div class="house-container">
+            <img class="house-1" src="./icons2/House3.jpeg"/>
+            <p1 class="best-deal"><img class="house-icn" src="./icons2/HouseIcon3.svg">Best Deal</p1>
+            </div>
+            <div class="house-info">
+            <p1 class="house-name-1">The Old Lighthouse</p1>
+            <p1 class="price-1">$ 44.000.000</p1>
+            </div>
+            <div class="user-info">
+                <img class="avatar-1" src="./icons2/AvatarHouse3.svg"/>
+                <div class="text-info">
+                <h5>Ronald Richards</h5>
+                <p>Santa Ana, Illinois</p>
+                </div>
+            </div>
+        
+
+        </div>
     </div>    
-    <div>
-        <div>
-        <img class="avatar-1" src="./icons2/Avatar1.jpeg" width="50"/>
-        <h5>Dianne Russell</h5>
-        <p>Manchester, Kentucky</p>
-        </div>
-        <div>
-        <img class="avatar-2" src="./icons2/Avatar3.jpeg" width="50"/>
-        <h5>Robert Fox</h5>
-        <p>Dr. Son Jose, South Dakota</p>
-        </div>
-        <div>
-        <img class="avatar-2" src="./icons2/Avatar4.jpeg" width="50"/>
-        <h5>Ronald Richards</h5>
-        <p>Santa Ana, Illinois</p>
-        </div>
     </div>
-    <h5>Ready To Sell!</h5>
-    <h2>Let's Tour And See Our House!</h2>
-    <p>
+    <div class="section3">
+    <div class="left-content3">    
+    <div class="head2">
+        <div class="gold-line"></div>
+        <h5 class="recomendation">Ready To Sell!</h5>
+    </div>
+    <h2 class="head-3">Let's Tour And See Our House!</h2>
+    <p class="main-text3">
         Houses recomended by our partners that have been <br/>
         curated to become the home of your dreams!
     </p>
-    <h4>House Detail</h4>
+    <h4 class="house-detail">House Detail</h4>
+    <div class="left-text">
+    <div class="col1">
+    <div class="house-info3">
     <img src="./icons2/Icon1.png" width="50"/>
     <h5>4 Bedrooms</h5>
+    </div>
+    <div class="house-info3">
     <img src="./icons2/GarageIcon.png" width="50"/>
     <h5>1 Carport</h5>
+    </div>
+    </div>
+    <div class="clo2">
+    <div class="house-info3">
     <img src="./icons2/BathIcon.png" width="50"/>
     <h5>2 Bathroom</h5>
+    </div>
+    <div class="house-info3">
     <img src="./icons2/FloorsIcon.png" width="50"/>
     <h5>2 Floors</h5>
-    <img class="avatar-2" src="./icons2/Avatar1.jpeg" width="50"/>
-    <h5>Diana Russell</h5>
-    <p>Manager Director</p>
-    <button>Contact Now</button>
-    <video width="320" height="240" controls>
+    </div>
+    </div>
+    </div>
+    <div class="gray-line"></div>
+    <div class="user-info">
+        <img class="avatar-1" src="./icons2/AvatarHouse1.svg"/>
+        <div class="text-info">
+        <h5>Dianne Russell</h5>
+        <p>Manager Director</p>
+        </div>
+        <button class="contact-button"><img class="avatar-1" src="./icons2/Phone.svg"/>Contact Now</button>
+    </div>
+    </div>
+    <div class="right-content3">
+    <div class="video-section">    
+    <video class="videoplayer" width="320" height="240" controls>
         <source src="./icons2/Video1.mp4" type="video/mp4">
     </video>
-    <div>
-        <img class="avatar-2" src="./icons2/VideoPic1.jpeg" width="50"/>
-        <img class="avatar-2" src="./icons2/VideoPic2.jpeg" width="50"/>
-        <img class="avatar-2" src="./icons2/VideoPic3.jpeg" width="50"/>
     </div>
-    <h5>See Our Ruview</h5>
-    <h2>What Our User Say About Us</h2>
     <div>
-        <img class="avatar-2" src="./icons2/Review1.jpeg" width="500"/>
+        <img class="avatar-3-1" src="./icons2/VideoPic1.jpeg"/>
+        <img class="avatar-3-2" src="./icons2/VideoPic2.jpeg"/>
+        <img class="avatar-3-3" src="./icons2/VideoPic3.jpeg"/>
+    </div>
+    </div>
+    </div>
+
+    <div class="section-4">
+    <div class="text-section4">
+    <div class="gold-line"></div>
+    <h5 class="title4">See Our Ruview</h5>
+    <h2 class="big-title4">What Our User Say About Us</h2>
+    </div>
+    <div class="section4-container">
+        <div class="img4-container">
+        <img class="review-img" src="./icons2/Review1.jpeg"/>
+        </div>
+        <div class="text-main-section4">
+        <h4>Best! I got the house I wanted through Hounter</h4>
         <p>Through this website I can get a house with the type and specifications I want <br/>
            very easily, without a complicated process to be able to find information on the<br/>
            house we want.</p>
-           <img class="avatar-1" src="./icons2/Avatar1.jpeg" width="50"/>
-           <h5>Dianne Russell</h5>
-           <p>Manager Director</p>
-           <img src="./icons2/Star.png" width="50"/>
+        <div class="not-text">   
+           <div class="user-info">
+            <img class="avatar-1" src="./icons2/AvatarHouse1.svg"/>
+            <div class="text-info">
+            <h5>Dianne Russell</h5>
+            <p>Manager Director</p>
+            </div>
+        </div>
+        <div class="score">
+           <img src="./icons2/Star.png" width="28" height="28"/>
            <h2>4.6</h2>
+        </div>
     </div>
-    <h5>See Tips And Trick From Our Partnership</h5>
-    <h2>Find Out More About<br/>
-    Selling And Buying Homes</h2>
-    <button>More Artikel</button>
+        </div>
+        </div>
+    </div>
 
-    <img src="./icons2/Home1.jpeg" width="250">
-    <img class="avatar-1" src="./icons2/Avatar1.jpeg" width="50"/>
-    <h5>Dianne Russell</h5>
-    <p>The Thing We Need To Check When<br/>
-    We want To Buy A House</p>
-    <img src="./icons2/Clock.png" width="25"/>
-    <p> 4 min read | 25 Apr 2021</p>
 
-    <img src="./icons2/Home2.jpeg" width="250">
-    <img class="avatar-1" src="./icons2/Avatar5.jpeg" width="50"/>
-    <h5>Courtney Henry</h5>
-    <p>7 Ways To Distinguish The Quality Of<br/>
-    The House We Want To Buy</p>
-    <img src="./icons2/Clock.png" width="25"/>
-    <p> 6 min read | 24 Apr 2021</p>
-    
-    <img src="./icons2/Home3.jpeg" width="250">
-    <img class="avatar-1" src="./icons2/Avatar6.jpeg" width="50"/>
-    <h5>Darlene Robertson</h5>
-    <p>The Best Way To Know The Quality Of<br/>
-    The House We Want To Buy</p>
-    <img src="./icons2/Clock.png" width="25"/>
-    <p> 2 min read | 24 Apr 2021</p>
 
-    <img src="./icons2/BIgHome.jpeg" width="500">
-    <img class="avatar-1" src="./icons2/Avatar7.jpeg" width="50"/>
-    <h5>Cameron Williamson</h5>
-    <h2>12 Things To Know Before Buying A House</h2>
-    <p>
-        Want to buy a house but unsure what we should know, here I will try to<br/>
-        explain what we should know and check when we  want to buy a house
-    </p>
-    <img src="./icons2/Clock.png" width="25"/>
-    <p> 8 min read | 25 Apr 2021</p>
+    <div class="section-4">
+        <div class="text-section4">
+        <div class="gold-line"></div>
+        <h5 class="title4">See Tips And Trick From Our Partnership</h5>
+        <h2 class="big-title4">Find Out More About<br/>
+            Selling And Buying Homes</h2>
+        <button class="title-button">More Artikel</button>
+    </div>
 
-    <h2>Subscribe For More Info<br/>And Update from Hounter</h2>
-    <input type="text" placeholder="Your email here">
-    <button type="submit">Subscribe Now</button>
-    <img src="./icons2/Avatar1.jpeg" width="25"/>
-    <img src="./icons2/Avatar5.jpeg" width="25"/>
-    <img src="./icons2/Avatar6.jpeg" width="25"/>
-    <img src="./icons2/Avatar7.jpeg" width="25"/>
-    <img src="./icons2/BImage1.jpeg" width="50"/>
-    <img src="./icons2/BImage2.jpeg" width="50"/>
-    <img src="./icons2/BImage3.jpeg" width="50"/>
-    <img src="./icons2/BImage4.jpeg" width="50"/>
+
+    <div class="section-5">
+        <div class="left-content5">
+            <div class="info-container5">
+                <div class="img-container5">
+                    <img src="./icons2/Home1.jpeg" class="img-5-1">
+                </div>
+                <div class="text-container5">
+                    <div class="user-5">
+                        <img class="avatar-5" src="./icons2/AvatarHouse1.svg"/>
+                        <h5 class="name-5">Dianne Russell</h5>
+                    </div>
+                    <p class="text-5">The Thing We Need To Check When<br/>
+                    We want To Buy A House</p>
+                    <div class="time-5">
+                        <img src="./icons2/Clock.png" class="clock-5"/>
+                        <p class="date-5"> 4 min read | 25 Apr 2021</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="info-container5">
+                <div class="img-container5">
+                    <img src="./icons2/Home2.jpeg" class="img-5-1">
+                </div>
+                <div class="text-container5">
+                    <div class="user-5">
+                        <img class="avatar-5" src="./icons2/AvatarHouse2.svg"/>
+                        <h5 class="name-5">Darlene Robertson</h5>
+                    </div>
+                    <p class="text-5">7 Ways To Distinguish The Quality Of<br/>
+                        The House We Want To Buy</p>
+                    <div class="time-5">
+                        <img src="./icons2/Clock.png" class="clock-5"/>
+                        <p class="date-5"> 6 min read | 24 Apr 2021</p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="info-container5">
+                <div class="img-container5">
+                    <img src="./icons2/Home1.jpeg" class="img-5-1">
+                </div>
+                <div class="text-container5">
+                    <div class="user-5">
+                        <img class="avatar-5" src="./icons2/AvatarHouse3.svg"/>
+                        <h5 class="name-5">Darlene Robertson</h5>
+                    </div>
+                    <p class="text-5">The Best Way To Know The Quality Of<br/>
+                        The House We Want To Buy</p>
+                    <div class="time-5">
+                        <img src="./icons2/Clock.png" class="clock-5"/>
+                        <p class="date-5"> 2 min read | 24 Apr 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="right-content5">
+            <img src="./icons2/BIgHome.jpeg" class="right-photo-5">
+            <div class="user-5">
+                <img class="avatar-5-right" src="./icons2/Avatar7.jpeg"/>
+                <h5 class="name-5">Cameron Williamson</h5>
+            </div>
+            <h2>12 Things To Know Before Buying A House</h2>
+            <p>
+                Want to buy a house but unsure what we should know, here I will try to<br/>
+                explain what we should know and check when we  want to buy a house
+            </p>
+            <div class="time-5">
+                <img src="./icons2/Clock.png" class="clock-5"/>
+                <p class="date-5"> 8 min read | 25 Apr 2021</p>
+            </div>
+        </div>    
+    </div>
+
+    <div class="section-6">
+        <div class="section6-text">
+            <h2 class="title-6">Subscribe For More Info<br/>And Update from Hounter</h2>
+            <form class="input-container6">
+                <img src="./icons2/Envelope.svg" class="envelope">
+                <input class="panel1-input" type="text" placeholder="Your email here"/>
+                <button type="submit" class="input-6">Subsribe Now
+                </button>
+            </form>
+        </div>
+        <img class="section6-img" src="./icons2/photo6.jpg">
+    </div>
+
+
     <footer>
-        <h5 class="banner-header-text-sm">
-            Hounter
-        </h5>
-        <p>
-            We provide information about properties such<br/>
-            as houses, villas and apartments to help people<br/>
-            find their dream home
-        </p>
-        <img src="./icons2/Facebook.png" width="50"/>
-        <img src="./icons2/Twitter.png" width="50"/>
-        <img src="./icons2/Instagram.png" width="50"/>
-        <h4>Property</h4>
-        <p>House</p>
-        <p>Apartment</p>
-        <p>Villa</p>
-
-        <h4> Article</h4>
-        <p>New Article</p>
-        <p>Popular Article</p>
-        <p>Most Read</p>
-        <p>Tips & Tricks</p>
-
-        <h4> Contact</h4>
-        <p>2464 Royal Ln. Mesa, New Jersey 45463</p>
-        <p>(671)555-0110</p>
-        <p>info@hounter.com</p>
+        <div class="foot">
+            <div class="left-last">
+                <img class="banner-header-text-sm" src="./icons2/Logo.svg"/>
+                <p class="last-text">
+                    We provide information about properties such<br/>
+                    as houses, villas, and apartments to help people<br/>
+                    find their dream home
+                </p>
+                <div class="final-icons">
+                    <img class="final-icon1" src="./icons2/Facebook.png"/>
+                    <img class="final-icon2" src="./icons2/Twitter.png"/>
+                    <img class="final-icon3" src="./icons2/Instagram.png"/>
+                </div>
+            </div>
+            <div class="right-last">
+                <div class="col-1">
+                    <h4>Property</h4>
+                    <p>House</p>
+                    <p>Apartment</p>
+                    <p>Villa</p>
+                </div>
+                <div class="col-2">
+                    <h4> Article</h4>
+                    <p>New Article</p>
+                    <p>Popular Article</p>
+                    <p>Most Read</p>
+                    <p>Tips & Tricks</p>
+                </div>
+                <div class="col-3">
+                    <h4> Contact</h4>
+                    <p>2464 Royal Ln. Mesa, New Jersey 45463</p>
+                    <p>(671)555-0110</p>
+                    <p>info@hounter.com</p>
+                </div>
+            </div>
+        </div>
     </footer>
 
   </body>
